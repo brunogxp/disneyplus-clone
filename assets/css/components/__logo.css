@@ -3,7 +3,7 @@
   padding-top: 1.6rem;
 }
 
-.logo-link {
+.logo__link {
   background: url('../../imgs/logo.svg') no-repeat;
   background-position: center;
   background-size: 105%;
@@ -18,7 +18,7 @@
     margin-top: 2.0rem;
   }
 
-  .logo-link {
+  .logo__link {
     height: 3.2rem;
     width: 5.9rem;
   }
