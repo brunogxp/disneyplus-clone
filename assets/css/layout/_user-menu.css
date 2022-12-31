@@ -62,6 +62,22 @@
   display: none;
 }
 
+.user-menu:hover .user-profile__title,
 .user-menu:hover .show-hover {
     display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .user-menu .user-profile__title {
+    display: none;
+  }
+  
+  .user-menu .user-profile__avatar {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+
+  .user-menu__current-profile {
+    padding: 1.9rem;
+  }
 }
